@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>w3.css template</title>
+        <meta charset="UTF -8">
+        <meta name="viewport"
+         content="width=device-width,initial-scale=1">
+        <link rel="stylesheet"
+        href="https//www.w3school.com/w3css/4/w3.css">
+        <link rel="stylesheet"href="https//fonts.gooleapis.com/css?family=inconsolata">
+        <style>
+            body,html{
+                height: 100%;
+                font-family: "inconsolata",sans-sarif;
+            }
+
+            .bgimg{
+                background-position: center;
+                background-size: cover;
+                background-image: url("/w3images/teble8.jpg");
+                min-height:75%; 
+            }
+
+            .menu{
+                display: none;
+            
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <!-- links (sits on top) -->
+        <div class="w3-top">
+            <div class="w3-row w3-padding w3-black">
+                <div class="w3-col s3">
+                    <a href="#home"class="w3-button w3-bloack w3-black">home</a>
+                    
+                </div>
+                <div class="w3-col-s3">
+                    <a href="#about" class="w3-button w3-block w3-vlack">about</a>
+
+                </div>
+                <div class="w3-col-s3">
+                    <a href="#menu"class="w3-button w3-block w3-black">menu</a>
+                </div>
+                <div class="w3-col s3">
+                    <a href="#where"class="w3-button w3-block w3-black">where</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- header with image -->
+        <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+            <div class="w3-display  -bottomleft w3-center w3-padding-large w3-hide-small">
+                <span class="w3-tag">open from 6am to 5pm</span>
+            </div>
+            <div class="w3-display-middle w3-center">
+                <span class="w3-text-white" style="font-size:90px">the<br>cafe</span>
+            </div>
+            <div class="w3-display-bottomright w3-center w3-padding-larger">
+                <span class="w3-text-white">15 adrstreet,5015</span>
+            </div>
+        </header>
+        
+        <!-- add a background color and large text to the whole page -->
+        <div class="w3-sand w3-grayscale w3-larger">
+        
+        <!-- about container -->
+        <div class="w3-container"id="about">
+            <div class="w3-content" style="max-width:700px">
+                <h5 class="w3-center w3-paddding-64"><span class="w3-teg w3-wide">ABOUT THE CAFE</span></h5>
+                <p>the cafe was founded in blabla by mr.smith in lorem isquem dolor it amet,consectetur adipiscing elit,sen do siusmod tempor incididunt ut labore et dolore magna aliqua.ut enim ad minim veniam.quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>in addition to our full espresso and brew bar menu,we server fresh made-to-order breakfast and lunch sandwiches,as well as a selection of sides and salads and other good stuff...</p>
+                <div class="w3-panel w3-leftbar w3-light-gray">
+                    <p><i>"use products from nature for what it's worth-but never too early,nor too late."fresh is the new sweet</i></p>
+                    <p>chef,coffeeist and owner:liam brown</p>
+                </div>
+                <img src="table4.jpg"style="width:100%;max-width:10000px"class="w3-margin-top">
+                <p><strong>opening hours:</strong>everyday from 6am to 5pm.</p>
+                <p><strong>address:</strong>15 adr street,5015,NY</p>
+            </div>
+        </div>
+
+        <!-- menu container -->
+
+        <div class="w3-container"id="menu">
+            <div class="w3-content" style="max-width:700px">
+            
+            <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5></div>
+            <div class="w3-row w3-ceneter w3-card w3-padding">
+                <a href="javascript:void(0)"onclick="openmenu(event,'EAT');"id="mylink">
+                <div class="w3-col s6 tablink">EAT</div>
+                </a>
+                <a href="javascript:void(0)"onclick="openmenu(event,'drinks');">
+                    <div class="w3-col s6 tablink">DRINK</div>
+                </a>
+            </div>
+            
+            <div id="EAT"class="w3-container menu w3-padding-48 w3-card">
+                <h5>bread basket</h5>
+                <p class="w3-text-gray">assortment of fresh baked ffruit breads and muffins 5.50</p><br>
+                <h5>honey almond granola with fruits</h5>
+                <p class="w3-text-gray">natural cereal of honey toasted oats,raisins,almonds and dates 7.00</p><br>
+                <h5>belgian waffle</h5>
+                <p class="w3-text-grey">vanilla flavored batter with malted flour 7.50</p><br>
+                <h5>scrambled eggs</h5>
+                <p class="w3-text-gray">scrambled eggs,roasted red pepper and garlic,with green onions 7.50</p><br>
+                <h5>blueberry pancakes</h5>
+                <p class="w3-text-gray">with syrup,butter and lots of berries 8.50</p>
+            </div>
+            <div id="drinks"class="w3-container menu w3-padding 48 w3-card">
+                <h5>coffiee</h5>
+                <p class="w3-text-gray">regular coffiee 2.50</p><br>
+                <h5>chocolato</h5>
+                <p class="w3-text-gray">chocolate esoresso with milk 4.50</p><br>
+                <h5>corretto</h5>
+                <p class="w3-text-gray">whiskey and coffee 5.00</p><br>
+                <h5>iced tea</h5>
+                <p class="w3-text-gray">hot tea,except not hot 3.00</p><br>
+                <h5>soda</h5>
+                <p class="w3-text-gray">coke,sprite,fanta,etc.2.50</p><br>
+                
+            </div>
+            <img src="table6.jpg"style="width:700px;max-width:1000px;margin-top:32px;">
+        </div>
+        </div>
+
+        <!-- contact/area container -->
+
+        <div class="w3-container"id="where"style="padding-bottom:32px;">
+            <div class="w3-content"style="max-width:700px">
+                <h5 class="w3-center w3-padding-48"><span class="w3-tg w3-wide">WHERE TO FIND US</span></h5>
+                <p>find us at address at some palce.</p>
+                <img src="table7.jpg"class="w3-image"style="width:100%">
+                <p><span class="w3-tag">fyi!</span>we offer full-service catering for any event,latge or small.we undertands your needs and we will cater the food to satisty the biggerst criteria of them all,both look and taste.</p>
+                <p><strong>reserve</strong>a table,ask for today's special or just send us a messsage:</p>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text"placeholder="name"required name="name"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="number"placeholder="how many people"required name="people"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local"placeholder="date and time"required name="date" value="2020-11-16t20:00"></p>
+                    <p><input class="w3-input w3-padding-16 w3-border" type="text"placeholder="massage\special requirements"required name="massage"></p>
+                    <p><button class="w3-button w3 black"type="sybmit">SEND MASSAGE</button></p>
+
+                </form>
+            </div>
+        </div>
+
+        <!-- end page content -->
+    </div>
+
+
+    <!-- footer -->
+    <footer class="w3-center w3-light-gray w3-padding-48 w3-larger">
+        <p>powered by</p>
+        <a href="htttps//www.w3schools.com/w3css/default.asp"title="w3-hover-text-green">w3.css</a>
+    </footer>
+    <script>
+
+        // tabbed menu
+
+        function openmenu(evt,menuname){
+            var i,x,tablinks;
+            x =
+            document.getElementsByClassName("menu");
+            for(i=0; i<x.length; i++){
+                x[i].style.display="none";
+            }
+            tablinks=
+            document.getElementsByClassName("tablink");
+            for(i=o; i<x.lenth; i++){
+                tablinks[i].classname=tablinks[i].classname.replace("w3-dark-gray","");
+
+            }
+            document.getElementsById(menuname).style.display="block";
+
+            evt.currenttarget.firstelementchild.classname += "w3-dark-gray";
+        }
+        document.getElementById("mylink").click();
+    </script>
+    </body>
+</html>

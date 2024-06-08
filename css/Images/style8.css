@@ -1,0 +1,22 @@
+.loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:20px solid yellow;
+    border-top: 20px solid whitesmoke;
+    animation :spin 3s ease-in 0s infinite normal;
+    -webkit-animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin{
+    0%{-webkit-transition: rotate(0deg);}
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spinanimate{
+    from{
+        transfrom:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

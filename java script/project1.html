@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swith bulb</title>
+    <link rel="stylesheet" href="project1.css">
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn{
+            padding: 70px;
+            background-color: chartreuse;
+            color: black;
+            font-size: 100px;
+            border: 5px;
+
+        }
+    </style>
+
+</head>
+<body style="background-color: black;">
+
+    <img  id="bulb"src="lightoff.png" alt="" class="center">
+       <button  id="togglebtn" class="center btn">turn on</button>
+      
+     <script>
+        let btn =document.getElementById("togglebtn")
+        let bulb=document.getElementById("bulb");
+        btn.addEventListener("click",Togglebulb)
+
+        function Togglebulb(e){
+            if(btn.textContent.includes("on")){
+                bulb.src="lighton.png"
+                btn.textContent ="turn off"
+            }else{
+                bulb.src="lightoff.png"
+                btn.textContent ="turn on"
+            }
+           
+
+        }
+     </script>
+
+        <script src="project1.js"></script>
+       
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container{
+    width: 1400px;
+    
+    margin: 0 auto;
+}
+
+
+
+
+h1{
+    background-color: #cdcdcd;
+    text-align: center;
+    padding: 15px 0;
+}
+
+section{
+    border: 2px solid #666;
+    padding: 10px;
+}
+
+
+.about-me{
+    margin-bottom: 40px;
+}
+
+section h3{
+    text-transform: uppercase;
+    color:#444;
+}
+

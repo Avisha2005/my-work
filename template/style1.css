@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-nav{
+      position:fixed;
+      top:0;
+      left:0;
+      z-index: 1;
+      background-color: white;
+      width: 100%;
+      box-shadow: 0px 2px 5px black;
+}
+
+#top-nav a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.795);
+    font-size:15px;
+    display: inline-block;
+    padding: 6px;
+    margin: 13px;
+    letter-spacing: 0.5px;
+}
+#top-nav-right{
+    float:right;
+    margin-right: 10px;
+}
+
+#home-section{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#home-section p {
+     position: absolute;
+     bottom: 10px;
+     left:20px;
+     font-size: 45px;
+     color:black;
+}
+
+#section-container{
+    width: 70%;
+    margin: auto;
+}
+
+#about-section p{
+    font-size: 20px;
+
+}
+#about-section{
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+#img-container{
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    padding: 10px 20px;
+}
+
+
+#gray{
+    color: gray;
+}
+#text-container{
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    padding: 10px 20px;
+}
+
+#about-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#menu-section{
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+
+#menu-section::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#text-container2{
+    box-sizing:border-box ;
+    width: 49%;
+    float:left;
+    padding: 10px 20px;
+}
+
+#text-container p{
+    color:gray;
+    font-size: 17px;
+
+}
+
+#img-container2{
+    box-sizing:border-box ;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+
+#contact-section{
+    padding: 70px 20px;
+    margin-bottom: 50px;
+    
+}
+
+#contact-section p{
+    font-size: 15px;
+}
+
+#contact-section-input[type="text"],#contact-section-input[type="date"]{
+      width: 100px;
+      border: none;
+      border-bottom: 1px solid gray;
+      font-size: 15px;
+      padding: 15px;
+      margin-bottom: 10px;
+
+}
+
+button{
+    border: none;
+    background-color:rgba(128,128,128,0.11);
+    font-family: serif;
+    font-family: 10px;
+    padding: 15px;
+}
+
+#footer{
+    padding: 40px;
+    background-color:rgba(128,128,128,0.329);
+    text-align: center;
+    font-size: 10px;
+}
