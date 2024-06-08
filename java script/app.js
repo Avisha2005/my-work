@@ -16,6 +16,7 @@ const winPatterns =[
     [6,7,8]
 ];
 
+// test my code
 
 const resetgame =() => {
    trunO=true;
