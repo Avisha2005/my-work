@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emporifyx Web Development Program</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    #button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1> Emporifyx Welcome to Simple Web Development Program</h1>
+    <p>Click the button below to change the background color!</p>
+    <button id="button">Change Color</button>
+  </div>
+
+  <script>
+    // JavaScript code to change background color when button is clicked
+    document.getElementById('button').addEventListener('click', function() {
+      var colors = ['#ff5733', '#33ff57', '#3333ff', '#ffff33'];
+      var randomColor = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = randomColor;
+    });
+  </script>
+</body>
+</html>
